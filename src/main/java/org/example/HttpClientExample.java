@@ -12,6 +12,7 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
+import org.json.JSONArray;
 
 import javax.swing.text.html.parser.Entity;
 import java.io.IOException;
@@ -59,6 +60,7 @@ public class HttpClientExample {
 
             System.out.println(EntityUtils.toString(response.getEntity()));
         }
+
 
 
     }
